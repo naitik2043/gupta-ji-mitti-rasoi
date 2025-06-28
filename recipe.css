@@ -1,0 +1,148 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            height: 100%;
+            width: 100%;
+            overflow-x: none;
+            background: #baabc9;
+            background: linear-gradient(90deg, rgba(186, 171, 201, 1) 0%, rgba(209, 109, 109, 1) 50%, rgba(196, 161, 114, 1) 100%);
+        }
+
+        .navcontainer{
+            height: 100%;
+            width: 100%;
+            min-height: 80px;
+            /* background-color:#3F5EFB;
+            background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%); */
+
+            background: #19172e;
+            background: linear-gradient(90deg, rgba(25, 23, 46, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+            min-height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #navlist{
+            margin-left: 15px;
+            margin-right: 15px;
+            list-style: none;
+            font-size: 2.8rem;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav{
+            width: 100%;
+            padding-right: 2rem;
+        }
+        
+        #brand_identity{
+            font-size: 2.8rem;
+            color: white;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        #navItem{
+            display: flex;
+            gap: 60px;
+        }
+
+        .footerBox{
+            background: #19172e;
+            background: linear-gradient(90deg, rgba(25, 23, 46, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+            text-align: center;
+            min-height: 40px;
+
+        }
+
+        .footerBox p{
+            color: azure;
+            font-size: 2rem;
+        }
+
+        .contentBox{
+            width: 70%;
+            margin: auto;
+            border: 1px solid black;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 100px;
+            padding: 3rem;
+            box-shadow: 1px 1px 30px ;
+        }
+        .item{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .rightBox{
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s linear 0s;
+        }
+
+        img{
+            border-radius: 20px;
+            transition: all 0.5s linear 0s;
+        }
+
+        .rightBox:hover{
+            transform: scale(1.2);
+        }
+
+        .leftBox{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .leftBox h2{
+            font-size: 2rem;
+        }
+
+        .IngredientsBox{
+            font-size: 1.3rem;
+        }
+
+        .RecipeBox{
+           font-size: 1.1rem; 
+        }
+
+        .rightBox .overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgb(36, 34, 34, 0.713);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: all 0.3s linear 0s;
+
+
+        }
+
+        .rightBox:hover .overlay{
+            opacity: 1;
+        }
+
+        .rightBox .overlay span{
+            color: white;
+            font-size: 1.2rem;
+        }
+        
