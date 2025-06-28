@@ -17,9 +17,6 @@
             height: 100%;
             width: 100%;
             min-height: 80px;
-            /* background-color:#3F5EFB;
-            background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%); */
-
             background: #19172e;
             background: linear-gradient(90deg, rgba(25, 23, 46, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
             min-height: auto;
