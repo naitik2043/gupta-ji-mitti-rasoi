@@ -88,3 +88,20 @@ Made with ❤️ by a fellow frontend learner who loves mithai & minimal code.
 ## 📌 License
 
 This project is open-sourced under the **MIT License**. Use it, remix it, enjoy it!
+
+
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Attribution
+
+Created by **Naitik Gupta**.
+
+If you use or modify this code in a public repository or portfolio, please give credit and link back to the original repository:
+
+🔗 [Original GitHub Repo](https://github.com/naitik2043/gupta-ji-mitti-rasoi)
+
